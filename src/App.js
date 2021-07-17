@@ -24,7 +24,7 @@ function App() {
     answers.push(correct_answer)
   }
   else {
-    answers.push(answer[randomIndex])
+    answers.push(answers[randomIndex])
     answers[randomIndex] = correct_answer
   }
 
